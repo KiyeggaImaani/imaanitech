@@ -11,8 +11,7 @@ const firstAidAdvice = {
                 <li>Try gentle exercises like walking or yoga.</li>
                 <li>If cramps are severe or persistent, consult a healthcare provider.</li>
             </ol>
-        `,
-        video: 'videos/Top_3_Ways_to_get_Immediate_Relief___Period_cramp___Period_Pain_Relief___Home_Remedies___Dr_Hansaji(360p).mp4'
+        `
     },
     'burn': {
         title: 'Burn Treatment',
@@ -24,8 +23,7 @@ const firstAidAdvice = {
                 <li>Do not apply creams, oils, or ice to the burn.</li>
                 <li>Seek medical attention for severe burns or if the burn covers a large area.</li>
             </ol>
-        `,
-        video: 'videos/First_Aid_Skills__Burns(360p).mp4'
+        `
     },
     'scald': {
         title: 'Scald Treatment',
@@ -37,8 +35,7 @@ const firstAidAdvice = {
                 <li>Do not burst any blisters.</li>
                 <li>Seek medical attention if the scald is severe or covers a large area.</li>
             </ol>
-        `,
-        video: 'videos/Burns_and_scalds__First_aid_steps_and_key_action(360p).mp4'
+        `
     },
     'asthma': {
         title: 'Asthma Attack Management',
@@ -50,8 +47,7 @@ const firstAidAdvice = {
                 <li>Loosen any tight clothing.</li>
                 <li>Call emergency services if symptoms worsen or don't improve.</li>
             </ol>
-        `,
-        video: 'videos/Asthma_attack__First_aid_steps_and_key_action(360p).mp4'
+        `
     },
     'hypotension': {
         title: 'Low Blood Pressure (Hypotension) Management',
@@ -64,8 +60,7 @@ const firstAidAdvice = {
                 <li>Monitor breathing and consciousness.</li>
                 <li>Seek medical attention if symptoms persist.</li>
             </ol>
-        `,
-        video: 'videos/Hypotension._How_to_quickly_raise_blood_pressure_at_home._First_aid(360p).mp4'
+        `
     },
     'diabetes': {
         title: 'Diabetic Emergency Response',
@@ -77,8 +72,7 @@ const firstAidAdvice = {
                 <li>Call emergency services immediately.</li>
                 <li>Provide any available medical information (diabetes type, medications).</li>
             </ol>
-        `,
-        video: 'videos/First_aid_for_diabetic_emergencies___First_aid_training_online___British_Red_Cross(360p).mp4'
+        `
     },
     'cut': {
         title: 'Cut and Wound Treatment',
@@ -90,8 +84,7 @@ const firstAidAdvice = {
                 <li>Change dressing regularly and watch for signs of infection.</li>
                 <li>Seek medical attention for deep cuts or if bleeding doesn't stop.</li>
             </ol>
-        `,
-        video: 'videos/Basic_first_aid_treatment_for_bleeding_cuts(360p).mp4'
+        `
     },
     'dog-bite': {
         title: 'Dog Bite First Aid',
@@ -103,8 +96,7 @@ const firstAidAdvice = {
                 <li>Seek medical attention, especially for puncture wounds or if the dog is unknown/stray.</li>
                 <li>Report the incident to local authorities if necessary.</li>
             </ol>
-        `,
-        video: 'videos/First_Aid_for_Dog_Bites(360p).mp4'
+        `
     },
     'choking': {
         title: 'Choking First Aid',
@@ -116,8 +108,7 @@ const firstAidAdvice = {
                 <li>Call emergency services if the object doesn't come out.</li>
                 <li>Do not perform blind finger sweeps.</li>
             </ol>
-        `,
-        video: 'videos/What_to_do_if_Your_Baby_is_Choking_-_First_Aid_Training_-_St_John_Ambulance(360p).mp4'
+        `
     },
     'heart-attack': {
         title: 'Heart Attack First Aid',
@@ -129,8 +120,7 @@ const firstAidAdvice = {
                 <li>If conscious, give aspirin if available and not allergic.</li>
                 <li>Monitor breathing and be prepared to perform CPR if needed.</li>
             </ol>
-        `,
-        video: 'videos/First_Aid_Skills__Heart_Attack(360p).mp4'
+        `
     },
     'stroke': {
         title: 'Stroke First Aid',
@@ -142,8 +132,7 @@ const firstAidAdvice = {
                 <li>Keep the person comfortable and monitor for changes.</li>
                 <li>Do not give food or drink if swallowing is affected.</li>
             </ol>
-        `,
-        video: 'videos/What_To_Do_If_Someone_Has_A_Stroke,_Signs___Symptoms_-_First_Aid_Training_-_St_John_Ambulance(360p).mp4'
+        `
     },
     'fracture': {
         title: 'Fracture First Aid',
@@ -155,8 +144,7 @@ const firstAidAdvice = {
                 <li>Do not attempt to realign the bone.</li>
                 <li>Seek immediate medical attention.</li>
             </ol>
-        `,
-        video: 'videos/How_To_Treat_A_Fracture___Fracture_Types_-_First_Aid_Training_-_St_John_Ambulance(360p).mp4'
+        `
     },
     'severe-bleeding': {
         title: 'Severe Bleeding First Aid',
@@ -168,8 +156,7 @@ const firstAidAdvice = {
                 <li>Keep the person warm and call emergency services.</li>
                 <li>Do not remove embedded objects.</li>
             </ol>
-        `,
-        video: 'videos/First_Aid_Skills__Severe_Bleeds(360p).mp4'
+        `
     },
     'allergic-reaction': {
         title: 'Severe Allergic Reaction (Anaphylaxis) First Aid',
@@ -181,8 +168,7 @@ const firstAidAdvice = {
                 <li>Loosen tight clothing and monitor breathing.</li>
                 <li>Perform CPR if the person stops breathing.</li>
             </ol>
-        `,
-        video: 'videos/Severe_allergic_reaction_and_anaphylaxis__first_aid_steps_and_key_action(360p).mp4'
+        `
     },
     'hypothermia': {
         title: 'Hypothermia First Aid',
@@ -195,8 +181,59 @@ const firstAidAdvice = {
                 <li>Use skin-to-skin contact if necessary.</li>
                 <li>Seek medical attention; do not warm extremities first if severe.</li>
             </ol>
-        `,
-        video: 'videos/Helping_someone_who_has_hypothermia_FirstAid_PowerOfKindness(360p).mp4'
+        `
+    },
+    'poisoning': {
+        title: 'Poisoning First Aid',
+        content: `
+            <ol>
+                <li>Call emergency services immediately.</li>
+                <li>If the person is unconscious, check for breathing and pulse.</li>
+                <li>Do not induce vomiting unless instructed by poison control.</li>
+                <li>Save the container or substance for identification.</li>
+                <li>Provide any available information about the poison to medical professionals.</li>
+                <li>Monitor the person closely until help arrives.</li>
+            </ol>
+        `
+    },
+    'electric-shock': {
+        title: 'Electric Shock First Aid',
+        content: `
+            <ol>
+                <li>Do not touch the person if they are still in contact with the electrical source.</li>
+                <li>Turn off the power source or use a non-conductive object to separate them.</li>
+                <li>Call emergency services immediately.</li>
+                <li>Check for breathing and pulse; perform CPR if necessary.</li>
+                <li>Treat any burns or injuries that may be present.</li>
+                <li>Monitor for shock symptoms and keep the person warm.</li>
+            </ol>
+        `
+    },
+    'drowning': {
+        title: 'Drowning First Aid',
+        content: `
+            <ol>
+                <li>Remove the person from the water safely.</li>
+                <li>Check for breathing and pulse; begin CPR if needed.</li>
+                <li>Call emergency services immediately.</li>
+                <li>Place the person in recovery position if breathing.</li>
+                <li>Keep the person warm and monitor closely.</li>
+                <li>Do not attempt to remove water from lungs.</li>
+            </ol>
+        `
+    },
+    'concussion': {
+        title: 'Concussion First Aid',
+        content: `
+            <ol>
+                <li>Keep the person still and quiet.</li>
+                <li>Apply ice packs to reduce swelling.</li>
+                <li>Monitor for worsening symptoms like confusion or vomiting.</li>
+                <li>Do not let the person sleep for long periods initially.</li>
+                <li>Seek immediate medical attention.</li>
+                <li>Provide information about the injury to healthcare providers.</li>
+            </ol>
+        `
     }
 };
 
@@ -229,11 +266,9 @@ function showAdvice(emergency) {
     const adviceDisplay = document.getElementById('advice-display');
     const titleElement = document.getElementById('advice-title');
     const contentElement = document.getElementById('advice-content');
-    const videoElement = document.getElementById('advice-video');
 
     titleElement.textContent = firstAidAdvice[emergency].title;
     contentElement.innerHTML = firstAidAdvice[emergency].content;
-    videoElement.src = firstAidAdvice[emergency].video.replace(/#/g, '%23');
 
     adviceDisplay.style.display = 'block';
     adviceDisplay.scrollIntoView({ behavior: 'smooth' });
