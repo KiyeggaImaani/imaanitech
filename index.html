@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY WIFE'S FIRST AID</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><span class="cross">✚</span> MY WIFE'S FIRST AID</h1>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>MY SALMAH'S FIRST AID</h2>
+            <p>My love make sure that everytime u get a complecation, you user this app.</p>
+        </section>
+        <section class="first-aid-section">
+            <h2>Select an Emergency</h2>
+            <div class="emergency-grid">
+                <div class="emergency-card" data-emergency="menstrual-cramps">
+                    <h3>Menstrual Cramps</h3>
+                    <p>Relieving menstrual cramps.</p>
+                </div>
+                <div class="emergency-card" data-emergency="burn">
+                    <h3>Burn</h3>
+                    <p>Treatment for burns.</p>
+                </div>
+                <div class="emergency-card" data-emergency="scald">
+                    <h3>Scald</h3>
+                    <p>Handling scald injuries.</p>
+                </div>
+                <div class="emergency-card" data-emergency="asthma">
+                    <h3>Asthma Attack</h3>
+                    <p>Managing asthma attacks.</p>
+                </div>
+                <div class="emergency-card" data-emergency="hypotension">
+                    <h3>Hypotension</h3>
+                    <p>Dealing with low blood pressure.</p>
+                </div>
+                <div class="emergency-card" data-emergency="diabetes">
+                    <h3>Diabetes</h3>
+                    <p>Handling diabetic emergencies.</p>
+                </div>
+                <div class="emergency-card" data-emergency="cut">
+                    <h3>Cut</h3>
+                    <p>Treating cuts and wounds.</p>
+                </div>
+                <div class="emergency-card" data-emergency="dog-bite">
+                    <h3>Dog Bite</h3>
+                    <p>First aid for animal bites.</p>
+                </div>
+                <div class="emergency-card" data-emergency="choking">
+                    <h3>Choking</h3>
+                    <p>Clearing airway obstructions.</p>
+                </div>
+                <div class="emergency-card" data-emergency="heart-attack">
+                    <h3>Heart Attack</h3>
+                    <p>Responding to cardiac emergencies.</p>
+                </div>
+                <div class="emergency-card" data-emergency="stroke">
+                    <h3>Stroke</h3>
+                    <p>Recognizing and responding to strokes.</p>
+                </div>
+                <div class="emergency-card" data-emergency="fracture">
+                    <h3>Fracture</h3>
+                    <p>Treating broken bones.</p>
+                </div>
+                <div class="emergency-card" data-emergency="severe-bleeding">
+                    <h3>Severe Bleeding</h3>
+                    <p>Controlling heavy blood loss.</p>
+                </div>
+                <div class="emergency-card" data-emergency="allergic-reaction">
+                    <h3>Allergic Reaction</h3>
+                    <p>Handling severe allergies.</p>
+                </div>
+                <div class="emergency-card" data-emergency="hypothermia">
+                    <h3>Hypothermia</h3>
+                    <p>Treating extreme cold exposure.</p>
+                </div>
+            </div>
+            <div id="advice-display" class="advice-display">
+                <h3 id="advice-title"></h3>
+                <div id="advice-content"></div>
+                <div class="video-container">
+                    <video id="advice-video" controls width="560" height="315"></video>
+                </div>
+                <button id="alert-ambulance" class="alert-btn">Alert Your Husband Imaani</button>
+                <button id="report-doctor" class="report-btn">Report to Doctor if Situation Worsens</button>
+            </div>
+
+            <!-- Doctor Report Modal -->
+            <div id="doctor-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Report to Personal Doctor</h3>
+                    <form id="doctor-form">
+                        <label for="doctor-mobile">Doctor's Mobile Number:</label>
+                        <input type="tel" id="doctor-mobile" required>
+
+                        <label for="patient-name">Your Name:</label>
+                        <input type="text" id="patient-name" required>
+
+                        <label for="emergency-type">Emergency Type:</label>
+                        <input type="text" id="emergency-type" readonly>
+
+                        <label for="message">Additional Message:</label>
+                        <textarea id="message" rows="4" placeholder="Describe the situation..."></textarea>
+
+                        <button type="submit" class="submit-btn">Send Report</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 MY WIFE'S FIRST AID. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
